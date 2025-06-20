@@ -1,0 +1,56 @@
+
+:root{
+  --primary_Color: #6ddbd0;
+  --background_Color: #f0f2f9;
+  --Secundary_background_color: #FFF;
+  --Green_Color: #46c89b;
+  --Red_Color:#ce5956
+}
+
+
+
+
+a{
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+
+
+#SEARCHICON{
+    position: relative;
+    left: -45px;
+}
+
+.WelcomeHome_Container{
+  border: 3px solid var(--Green_Color);
+}
+
+#SubCard_for_Receivable{
+  position: relative;
+}
+
+#SubCard_for_Receivable::before{
+  content: "";
+  position: absolute;
+  left: -10px;
+  background-color: var(--Green_Color);
+  height: 90%;
+  width: 4px;
+}
+
+#SubCard_for_Receivable-red{
+  position: relative;
+}
+
+#SubCard_for_Receivable-red::before{
+  content: "";
+  position: absolute;
+  left: -10px;
+  background-color: var(--Red_Color);
+  height: 90%;
+  width: 4px;
+}
+
+
+

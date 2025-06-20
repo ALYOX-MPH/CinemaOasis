@@ -1,0 +1,26 @@
+{
+    "name": "batistafull/core",
+    "description": "Core framework for BatistaFull",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Batista",
+            "email": "albertomimi16@gmail.com",
+            "homepage": "https://github.com/batistafull",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Modules\\": "modules/",
+            "Plugins\\": "plugins/"
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "composer dump-autoload"
+        ]
+    }
+}
