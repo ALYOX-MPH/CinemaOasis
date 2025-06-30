@@ -34,10 +34,10 @@
       </button>
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav mx-auto d-flex gap-4">
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="admin.html">Inicio</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="agregar.html">Agregar</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="publicados.html">Publicados</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="portada.html">Portada</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/admin">Inicio</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/agregar">Agregar</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/publicados">Publicados</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/portada">Portada</a></li>
         </ul>
       </div>
     </div>

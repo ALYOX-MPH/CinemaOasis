@@ -5,17 +5,17 @@ $Module= strtolower( trim($URL, "/"));
 
 
 
+
+
 switch ($Module) {
+
+    // Landing Page
     case '/':
         require_once "./modules/LandingPage/index.php";
         break;
 
     case 'home':
         require_once "./modules/LandingPage/index.php";
-        break;
-    
-    case 'admin':
-        require_once "./modules/AdminPanel/admin.php";
         break;
 
     case 'cartelera':
@@ -38,6 +38,23 @@ switch ($Module) {
         require_once "./modules/LandingPage/contacto.php";
         break;
 
+    // Admin panel
+     case 'admin':
+        require_once "./modules/AdminPanel/admin.php";
+        break;
+
+     case 'agregar':
+        require_once "./modules/AdminPanel/agregar.php";
+        break;
+
+     case 'publicados':
+        require_once "./modules/AdminPanel/publicados.php";
+        break;
+
+     case 'portada':
+        require_once "./modules/AdminPanel/portada.php";
+        break;
+    
    
     default:
         echo "<h1>Pagina no encontrada.......ERROR 404</h1>";

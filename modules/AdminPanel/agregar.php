@@ -24,20 +24,20 @@
 </head>
 <body>
 
-  <img class="d-block mx-auto mb-4" src="../img/logo.png" alt="" style="width: 350px; height: 170px; padding: 10px;">
+  <img class="d-block mx-auto mb-4" src="modules\img\logo.png" alt="" style="width: 350px; height: 170px; padding: 10px;">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav mx-auto d-flex gap-4">
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="admin.html">Inicio</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="agregar.html">Agregar</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="publicados.html">Publicados</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="portada.html">Portada</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/admin">Inicio</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/agregar">Agregar</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/publicados">Publicados</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/portada">Portada</a></li>
         </ul>
       </div>
     </div>

@@ -33,21 +33,21 @@
 </head>
 <body class="">
 
-  <img class="d-block mx-auto mb-4" src="../img/logo.png" alt="" style="
+  <img class="d-block mx-auto mb-4" src="modules\img\logo.png" alt="" style="
       width: 350px; height: 170px; padding: 10px; ">
       
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav mx-auto d-flex gap-4">
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="admin.html">Inicio</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="agregar.html">Agregar</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="publicados.html">Publicados</a></li>
-          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="portada.html">Portada</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/admin">Inicio</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/agregar">Agregar</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/publicados">Publicados</a></li>
+          <li class="nav-item" style="font-size: 30px;"><a class="nav-link" href="/portada">Portada</a></li>
         </ul>
       </div>
     </div>
@@ -90,7 +90,7 @@
 
     <!-- Película 1 -->
     <div class="col-md-12 text-center border border-2 rounded border-success card-hover">
-    <img src="../img/ironman.jpg" class="d-block w-100 mb-4" alt="Película 1" style="object-fit: cover; width: 100%; height: 300px;">
+    <img src="modules\img\ironman.jpg" class="d-block w-100 mb-4" alt="Película 1" style="object-fit: cover; width: 100%; height: 300px;">
     <div class=" d-none d-md-block">
           <h5>Godzilla x Kong: The New Empire</h5>
           <p>Dos titanes, una batalla épica.</p>
