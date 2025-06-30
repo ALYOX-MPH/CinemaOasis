@@ -23,7 +23,7 @@
 </head>
 <body class="">
 
-  <img class="d-block mx-auto mb-4" src="../img/logo.png" alt="" style="
+  <img class="d-block mx-auto mb-4" src="modules\img\logo.png" alt="" style="
       width: 350px; height: 170px; padding: 10px; ">
       
   <!-- Navbar -->

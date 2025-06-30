@@ -67,7 +67,7 @@
     
     <!-- Imagen izquierda -->
     <div class="col-md-3 text-center mb-3">
-      <img src="../img/contacto2.webp" class="img-fluid rounded shadow"  alt="Cine clásico">
+      <img src="modules\img\contacto2.webp" class="img-fluid rounded shadow"  alt="Cine clásico">
     </div>
     
     <!-- Texto central -->
@@ -79,7 +79,7 @@
     
     <!-- Imagen derecha -->
     <div class="col-md-3 text-center mb-3">
-      <img src="../img/contacto1.webp" class="img-fluid rounded shadow" alt="Cine moderno">
+      <img src="modules\img\contacto1.webp" class="img-fluid rounded shadow" alt="Cine moderno">
     </div>
   </div>
 </div>
