@@ -1,1 +1,4 @@
-<h1>CinemaOasis App</h1>
+<?php
+
+require_once "./AppCore/Route.php";
+

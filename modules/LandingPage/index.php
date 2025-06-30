@@ -30,7 +30,7 @@
   <div class="container">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="../img/logo.png" alt="Logo" width="250px" height="90px" class="me-2">
+      <img src="modules\img\logo.png" alt="Logo" width="250px" height="90px" class="me-2">
     </a>
 
      <!-- Botón para dispositivos móviles -->
@@ -41,12 +41,12 @@
     <!-- Menú colapsable -->
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto d-flex gap-4">
-        <li class="nav-item" style="font-size: 20px;"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="cartelera.html">Cartelera</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="extrenos.html">Extrenos</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="proximamente.html">Próximamente</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="precios.html">Precios</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item" style="font-size: 20px;"><a class="nav-link" href="/home">Inicio</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/cartelera">Cartelera</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/extrenos">Extrenos</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/proximamente">Próximamente</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/precios">Precios</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/contacto">Contacto</a></li>
       </ul>
     </div>
   </div>
@@ -57,15 +57,16 @@
   <div id="destacadas" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" style="width: 100%; height: 400px; overflow: hidden;">
-        <img src="../img/avenger.jpg" class="d-block w-100" alt="Película 1" style="object-fit: cover; width: 100%; height: 100%;">
+        <img src="modules\img\avenger.jpg" class="d-block w-100" alt="Película 1" style="object-fit: cover; width: 100%; height: 100%;">
         <div class="carousel-caption d-none d-md-block">
           <h5>Godzilla x Kong: The New Empire</h5>
           <p>Dos titanes, una batalla épica.</p>
         </div>
       </div>
+
       <div class="carousel-item" >
         <div style="width: 100%; height: 400px; overflow: hidden;">
-        <img src="../img/ironman.jpg" class="d-block w-100" alt="Película 2" style="object-fit: cover; height: 100%;">
+        <img src="modules\img\ironman.jpg" class="d-block w-100" alt="Película 2" style="object-fit: cover; height: 100%;">
         <div class="carousel-caption d-none d-md-block">
           <h5>Dune Parte 2</h5>
           <p>El futuro de Arrakis está en juego.</p>
