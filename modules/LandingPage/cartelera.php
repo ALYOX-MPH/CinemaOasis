@@ -27,11 +27,11 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+   <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="../img/logo.png" alt="Logo" width="250px" height="90px" class="me-2">
+      <img src="modules\img\logo.png" alt="Logo" width="250px" height="90px" class="me-2">
     </a>
 
      <!-- Botón para dispositivos móviles -->
@@ -42,16 +42,17 @@
     <!-- Menú colapsable -->
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto d-flex gap-4">
-        <li class="nav-item" style="font-size: 20px;"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="cartelera.html">Cartelera</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="extrenos.html">Extrenos</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="proximamente.html">Próximamente</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="precios.html">Precios</a></li>
-        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item" style="font-size: 20px;"><a class="nav-link" href="/home">Inicio</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/cartelera">Cartelera</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/extrenos">Extrenos</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/proximamente">Próximamente</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/precios">Precios</a></li>
+        <li class="nav-item"style="font-size: 20px;"><a class="nav-link" href="/contacto">Contacto</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
 
 
   <!-- barra de búsqueda -->
