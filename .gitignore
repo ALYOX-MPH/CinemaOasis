@@ -10,12 +10,8 @@ error_log
 .idx/
 /uploads/
 .rar
+.zip
 
-# Puse el docker-compose.yml porque en mi pc de aqui de la casa tengo problemas con el puerto 3306 de la base de datos
-#Entonces lo cambie al 3307 y pues no quiero que esos cambios se suban al github
-# Y pues lo que hice fue evitar que los cambios del docker-compose se suban al reposiorio 
-# De todas formas no creo que hagamos cambios en el docker-compose
-/docker-compose.yml 
 
 # /modules/**
 # /plugins/**
