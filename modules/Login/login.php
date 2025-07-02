@@ -23,7 +23,7 @@
 <body>
 
   <div class="login-container text-center">
-    <img src="../img/logo.png" alt="logo" style="width: 100%; height: 100%;">
+    <img src="modules\img\logo.png" alt="logo" style="width: 100%; height: 100%;">
     <div class="form-group mb-3 text-start">
       <label for="usuario">Usuario</label>
       <input type="text" id="usuario" class="form-control" placeholder="admin">

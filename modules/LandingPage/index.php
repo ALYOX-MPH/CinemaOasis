@@ -95,7 +95,7 @@
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card text-white">
-            <img src="../img/lilo.jpeg" class="card-img-top" alt="Película" style="height: 350px;">
+            <img src="https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" class="card-img-top" alt="Película" style="height: 350px;">
             <div class="card-body">
               <h5 class="card-title">The Batman</h5>
               <p class="card-text">Bruce Wayne combate el crimen en Gotham enfrentando nuevos enemigos.</p>
