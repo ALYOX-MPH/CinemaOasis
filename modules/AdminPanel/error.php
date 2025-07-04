@@ -45,7 +45,6 @@
     </a>
     </div>
 </nav>
-
 <!-- error 404 -->
   <div class="container d-flex align-items-center justify-content-center  mt-5" style="height: 65vh; width: 100%;">
     <div class="row">

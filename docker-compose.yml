@@ -1,13 +1,11 @@
-networks:
-  mi_red:
-    driver: bridge
+version: '3.8'
 
 services:
   web_service:
     build: .
     container_name: Cinema_WebApp 
     ports:
-      - "8000:80"
+      - "8080:80"
     volumes:
       - ./:/var/www/html
     depends_on:
@@ -15,8 +13,7 @@ services:
     environment:
       - APACHE_RUN_USER=#1000
       - APACHE_RUN_GROUP=#1000
-    networks:
-      - mi_red
+   
 
   service_db:
     image: mariadb:latest
@@ -31,8 +28,7 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
-    networks:
-      - mi_red
+    
 
 
 volumes:

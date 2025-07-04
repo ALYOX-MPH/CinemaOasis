@@ -3,7 +3,6 @@ composer.phar
 /vendor/
 .env
 .env.*
-.htaccess
 error_log
 /s3/
 .vscode/
