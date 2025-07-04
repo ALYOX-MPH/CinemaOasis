@@ -51,7 +51,7 @@
         <h1 class="error col-12 text-center" >404</h1>
         <p class="col-12 text-center fs-4 ">La página que buscas no existe.</p>
         <div class="col d-flex align-items-center justify-content-center">
-        <a href="modules\LandingPage\index.php" class="btn btn-danger fs-5">Volver al inicio</a>   
+        <a href="/home" class="btn btn-danger fs-5">Volver al inicio</a>   
         </div>
     </div> 
   </div>
